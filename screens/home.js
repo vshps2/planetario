@@ -6,7 +6,7 @@ export default class Homescreen extends Component{
     return(
       <View style={inicio.container}>
         <SafeAreaView style={inicio.ajuste}/>
-          <ImageBackground source={require('//')}>  
+          <ImageBackground source={require('../assets/bg.png')}>  
           <View>
             <Text style={inicio.title}>Localizacion de la EEI</Text>
           </View>
